@@ -1,14 +1,15 @@
-
 body {
   background-color: BlanchedAlmond;
   }
 
 h1 {
   color: SaddleBrown;
-  text-align: left;
+  text-align: right;
+  text-align: 16px;
   {
 
 p {
-  font-family: allan;
-  font-size: 18px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  font-size: 14px;
+  text-align: right;
 }
