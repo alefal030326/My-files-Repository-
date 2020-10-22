@@ -1,15 +1,93 @@
 body {
-  background-color: BlanchedAlmond;
-  }
+  background-image: url("https://i.pinimg.com/originals/f7/59/dd/f759ddbefbeba836a24ded45f0051156.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+background-position: center;
+
+
+}
 
 h1 {
-  color: SaddleBrown;
-  text-align: right;
-  text-align: 16px;
-  {
+  color: Saddlebrown;
+  text-align: Center;
+  font-size: 20px;
+  text-shadow:1px 1px burlywood;
+  box-shadow:1px 2px burlywood;
+  border-style: solid;
+  border-color: saddlebrown;
+  font-family: tahoma,sans-serif;
+}
+
+h2 {
+  color: blanchedalmond;
+  text-align: center;
+  font-size: 18px;
+  background-color: saddlebrown;
+  font-family: tahoma,sans-serif;
+  border-style:solid;
+  border-color:burlywood;
+ }
 
 p {
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-  font-size: 14px;
-  text-align: right;
+  color: Saddlebrown;
+  font-family: tahoma,sans-serif;
+  font-size: 16px;
+  background-color: blanchedalmond;
+  border-color: saddlebrown;
+  border-style: solid;
+}
+
+h3 {
+  color: blanchedalmond;
+  font-family: tahoma,sans-serif;
+  font-size:18px;
+  background-color: saddlebrown;
+  text-align:center;
+  border-style:solid;
+  border-color:burlywood;
+ }
+
+  
+ul {
+    list-style-type: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: Burlywood;
+    font-family: tahoma,sans-serif;
+}
+
+li {
+    list-style-type: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: Burlywood;
+    border-style: solid;
+    border-color: blanchedalmond;
+}
+
+li a {
+    display: block;
+    background-color:BurlyWood;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: Saddlebrown;
+}
+/* the a element states that this is link */
+li a.active {
+  background-color: Saddlebrown;
+  color: blanchedalmond;
+}
+/* this makes this a type of link that is active when you hover over it */
+
+li a:hover:not(.active) {
+  background-color: saddlebrown;
+  color: blanchedalmond;
+}
+/* this states that when you dont hover over it, it isnt active, there is no link */
+iframe {
+  width: 50%;
+  height: 400px;
+  margin-left:25%;
 }
