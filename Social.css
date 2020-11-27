@@ -1,0 +1,101 @@
+body { 
+	font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
+	display: grid;
+	grid-template-areas: 
+    "header header header"
+    "nav section aside"
+    "footer footer footer";
+	grid-template-rows: 80px 1fr 50px;
+	grid-template-columns: 15% 1fr 18%;
+	grid-gap: 5px;
+  height: 100vh;
+  margin: 10px;
+  text-align:center;
+}
+
+header {
+	background: #707070;
+	grid-area: header;
+}
+
+nav {
+	background: #707070;
+	grid-area: nav; 
+}
+
+section {
+	background: #707070;
+	grid-area: section;    
+}
+
+aside {
+	background: #707070;
+	grid-area: aside; 
+}
+
+footer {
+	background: #707070;
+	grid-area: footer;
+}
+
+header, nav, section, aside, footer {
+	padding: 5px;
+}
+
+h1 {
+  color: lightblue;
+  font-size: 30px;
+  text-align: center;
+  }
+
+h2 {
+  color: lightblue;
+  font-size: 17px;
+  text-align: center;
+  }
+
+h3 {
+  color: lightblue;
+  font-size: 20px;
+  text-align: center;
+  }
+ul {
+  list-style-type:none;
+  margin: 7px;
+  padding: 7px;
+  font-size:20px;
+  text-color: lightblue;
+  }
+
+li a {
+  display: block;
+  width: 80%;
+  margin: 20px;
+}
+
+li a:hover {
+  background-color: Lightblue;
+  color: #707070;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+ } 
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 50px;
+}
+
+.button {
+  background-color: Lightblue;
+  border: none;
+  color: #707070;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
