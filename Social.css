@@ -1,41 +1,50 @@
-body { 
+body {
 	font-family: segoe-ui_normal,Segoe UI,Segoe,Segoe WP,Helvetica Neue,Helvetica,sans-serif;
 	display: grid;
-	grid-template-areas: 
+	grid-template-areas:
     "header header header"
-    "nav section aside"
-    "footer footer footer";
-	grid-template-rows: 80px 1fr 50px;
+
+		"nav section aside"
+
+		"footer footer footer";
+	grid-template-rows: 120px 1fr 70px;
 	grid-template-columns: 15% 1fr 18%;
 	grid-gap: 5px;
-  height: 100vh;
-  margin: 10px;
+  height: 1,5em                                                                                                                                                                                  ,;
+  margin: 5px;
   text-align:center;
+	background-image: linear-gradient( to bottom right, LightSkyBlue , Lightblue);
 }
 
 header {
 	background: #707070;
 	grid-area: header;
+	border-radius: 25px;
 }
 
 nav {
 	background: #707070;
-	grid-area: nav; 
+	grid-area: nav;
+	border-radius: 25px;
 }
 
 section {
 	background: #707070;
-	grid-area: section;    
+	grid-area: section;
+	border-radius: 25px;
 }
 
 aside {
 	background: #707070;
-	grid-area: aside; 
+	grid-area: aside;
+	border-radius: 25px;
 }
 
 footer {
 	background: #707070;
 	grid-area: footer;
+	height: 200px;
+	border-radius: 25px;
 }
 
 header, nav, section, aside, footer {
@@ -59,6 +68,7 @@ h3 {
   font-size: 20px;
   text-align: center;
   }
+
 ul {
   list-style-type:none;
   margin: 7px;
@@ -81,7 +91,7 @@ li a:hover {
 a {
   color: lightblue;
   text-decoration: none;
- } 
+ }
 
 .grid-container {
   display: grid;
@@ -99,3 +109,14 @@ a {
   font-size: 16px;
   border-radius: 12px;
 }
+
+p {
+  color: lightblue;
+  font-size: 15px;
+  text-align: center;
+	font-weight: bold;
+  }
+
+  .pictures {
+	  border-radius: 50%;
+	}
