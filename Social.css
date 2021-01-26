@@ -239,12 +239,13 @@ h6 {
 }
 
 h7 {
-color: #707070;
+color: lightblue;
 font-size: 15px;
 text-align: center;
 border: solid;
 border-radius: 25px;
-border-color: #707070;
+border-color: lightblue;
+background-color: #707070;
 }
 
 .grid-container {
