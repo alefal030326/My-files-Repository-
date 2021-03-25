@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset=utf-8/>
+
+<title>This program is made to figure out mole.</title>
+
+<style type="text/css">
+
+body {margin: 30px;}
+
+</style>
+</head>
+
+<body>
+<button id="Klicka"> Add task(+)</button>
+<script>
+    var clickerButton = document.getElementById("Klicka");
+    var onButtonClick = function() {
+        clickerButton.textContent = "Knappen har blivit klickad";
+    };
+    clickerButton.addEventListener("click", onButtonClick);
+</script>
+</body>
+</html>
