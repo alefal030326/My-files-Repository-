@@ -1,0 +1,29 @@
+
+    body{
+      background-color: coral;
+      text-align: center;
+      color:white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+      border:inline;
+      border-radius: 5px;
+      border-color: white;
+    }
+
+    button{
+      background-color:#ff4c00;
+      color:white;
+      text-decoration: none;
+      font-size: 27px;
+      border:none;
+      border-radius:4px;
+}
+
+    ul {
+      background-color: white;
+      color: coral;
+      border: inline;
+      border-color: orange;
+    }
